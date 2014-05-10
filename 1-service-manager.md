@@ -22,8 +22,8 @@ In addition of implementing the above inteface, a Zend\ServiceManager\ServiceMan
 *Initializers *
 
 
-**Service Manager Configuration**
-    *1 - Using Configuration*
+***Service Manager Configuration***
+    **1 - Using Configuration**
       In module.config.php: top-lever key: service_manager and any of the following sub-key
                   *abastract_factories*
                   *aliases*
@@ -31,5 +31,5 @@ In addition of implementing the above inteface, a Zend\ServiceManager\ServiceMan
                   *invokables*
                   *services*
                   *shared*
-      *2 - Module as Service Providers *
+      **2 - Module as Service Providers **
            To provide sevice manager configuration, the Module class must either implement Zend\ModuleManager\Feature\ServiceProviderInterface or the method getServiceConfig().
